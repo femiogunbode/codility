@@ -39,7 +39,6 @@ def solution(A):
     N = len(A)
     A = sorted(A)
     A = A + [0]
-    print(A)
     if N == 2: 
         return A[0]
 
